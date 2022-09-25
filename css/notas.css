@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+}
+
+
+.upgrade-card {
+    min-height: 250px;
+}
+
+.card-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    margin-bottom: 6px;
+    color: #999;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
