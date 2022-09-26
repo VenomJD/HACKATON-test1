@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+ background: url(./img/bg-main.jpg)no-repeat center top;
+ background-size: cover;
+}
+.LoginBox{
+  width: 320px;
+  height:420px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  box-sizing:border-box;
+  padding: 70px 30px;
+  font-family: roboto,sans-serif;
+  
+}
+
+.LoginBox h1{
+  color:white;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 20px;
+  display: block;
+}
+
+.LoginBox .logo{
+  width:100px;
+  height:100px;
+  border-radius:10%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.LoginBox label {
+  margin: 0;
+  padding: 0;
+  font-family: roboto,sans-serif;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  color:white;
+}
+
+.LoginBox input {
+  width: 100%;
+  color:white;
+  padding:10px;
+  margin-bottom: 20px;
+}
+#C, #P {
+  background:transparent;
+  border: none;
+  border-bottom: 1px solid #ffff;
+  outline: none;
+}
+#B{
+  margin-top:30px;
+  border-radius: 10px;
+  background-color: rgb(19, 169, 223);
+
+}
